@@ -81,7 +81,15 @@ cd web-client
 
 npm install
 
+- If it doesn't work, try
+sudo npm install -g bower
+
 bower install
+
+- If you got command not found, follow these steps
+export NODE_PATH="/usr/local/lib/node"
+export PATH="/usr/local/share/npm/bin:$PATH"
+sudo npm install -g bower
 ```
 
 ## Setup the database
