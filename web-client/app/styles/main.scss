@@ -15,6 +15,9 @@
     font-style: normal;
 }
 
+// to fix chrome issue painting html
+html, body { height:100%; overflow:auto; }
+
 html {
   direction: rtl;
 }
